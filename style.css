@@ -14247,3 +14247,13 @@ body.breakpoint-xs .box-fancy [class*="col-"] {
   .m-p-g__alertBox h2 {
     color: red;
   }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .contact-us-img{
+      width: 480px !important;
+      }
+  }
+  @media (min-width: 0px) and (max-width: 992px) {
+    .contact-us-img{
+      margin: 100px 80px !important;
+      }
+  }
